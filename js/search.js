@@ -8,7 +8,7 @@ function mySearchEng() {
     input = document.getElementById('myInput');
     filter = input.value.toUpperCase();
 
-    gallery = document.getElementsByClassName('gallery');
+    gallery = document.getElementsByClassName('gallery')[0];
     img = gallery.getElementsByTagName('a');
   
     let caption;
