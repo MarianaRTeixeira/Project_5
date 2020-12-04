@@ -8,7 +8,7 @@ function mySearchEng() {
     input = document.getElementById('myInput');
     filter = input.value.toUpperCase();
 
-    gallery = document.getElementById('gallery');
+    gallery = document.getElementsByClassName('gallery');
     img = gallery.getElementsByTagName('a');
   
     let caption;
@@ -23,4 +23,4 @@ function mySearchEng() {
    }
 
 }    
-//w3school
+//w3school based 
